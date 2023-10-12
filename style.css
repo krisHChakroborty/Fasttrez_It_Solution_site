@@ -1002,7 +1002,7 @@ input[type=text], select, textarea {
 
 }
 
-@media  (max-width:480px){
+@media  (max-width:390px){
 .slider_text{
     font-size: 37px;
 }
