@@ -65,7 +65,7 @@
       <button class="navbar-toggler three_lines " type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
+      <span><i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i></span>
       </button>
 
 
@@ -234,20 +234,20 @@
   <!-----------krish------------------------------- slider  (carousal) start ------------------------------------------>
   <div class="container-fluid ">
     <div class="row ">
-      <div class="col-lg-12">
+      <div class="col-lg-12 ">
         <div id="carouselExampleCaptions" class="carousel slide" >
 
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          <!-- <div class="carousel-indicators ">
+            <button type="button"  data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
 
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            <button type="button" data-bs-slide-to="1"
               aria-label="Slide 2"></button>
 
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            <button type="button" data-bs-slide-to="2"
               aria-label="Slide 3"></button>
               
-          </div>
+          </div> -->
 
 
           <!-- <div class="container-fluid"> -->
@@ -255,18 +255,6 @@
           <!-- <div class="col-lg-12"> -->
 
 
-          <div id="carouselExampleCaptions" class="carousel slide">
-
-            <div class="carousel-indicators">
-              <button class="text-white" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                class="active" aria-current="true" aria-label="Slide 1"></button>
-
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            </div>
 
 
             <div class="carousel-inner">
@@ -274,7 +262,7 @@
               <!-------------------------------- first image and text ----------------------------->
               <div class="carousel-item active text-center img3 size">
                 <!-- <img src="images/hero-img.jpg" class="d-block w-100" alt="..."> -->
-                <div class="carousel-caption d-none d-md-block first_block d-flex mt align-items-center">
+                <div class="carousel-caption d-none d-md-block first_block d-flex  align-items-center">
                   <h5 class="slider_text  ">Let's Grow Your Business <br>
                     Together with Digital Marketing!
                   </h5> <br>
@@ -371,20 +359,20 @@
             <!-- arrow icons -->
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
               data-bs-slide="prev">
-              <span style="background-color: #ffffff; padding: 10px; border-radius: 50%;"><i class="fa-solid fa-arrow-left fa-2xl" style="color: #030304;"></i></span>
+              <span class="hide_icons" style="background-color: #ffffff; padding: 10px; border-radius: 50%;"><i class="fa-solid fa-arrow-left fa-2xl" style="color: #030304;"></i></span>
             </button>
 
 
             <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions"
               data-bs-slide="next">
-              <span style="background-color: #ffffff; padding: 10px; border-radius: 50%;"><i class="fa-solid fa-arrow-right fa-2xl" style="color: #030304;"></i></span>
+              <span class="hide_icons" style="background-color: #ffffff; padding: 10px; border-radius: 50%;"><i class="fa-solid fa-arrow-right fa-2xl" style="color: #030304;"></i></span>
             </button>
             <!-- arrow icons -->
           </div>
         </div>
       </div>
     </div>
-  </div>
+  
 
 
   <!---------------krish---------------------------- carousal ends here-------------------------------------------------->
@@ -410,24 +398,31 @@
   <!-- Title part -->
 
 
-  <div class="container card_main-1">
-
-    <div class="card">
-      <figure><img src="images/web-development-icon.png" /></figure>
-      <h5>Web Development</h5>
-      <p>At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database.
-      </p>
-    </div>
-
-
-    <div class="card">
-      <figure><img src="images/web-designing-icon.png" /></figure>
-      <h5>Web Designing</h5>
-      <p>At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database.
-      </p>
-    </div>
+  <div class="container ">
+    <div class="row d-flex justify-content-evenly">
+      <div class="col-lg-3 col-md-5">
+        <div class="card">
+          <figure><img src="images/web-development-icon.png" /></figure>
+          <h5>Web Development</h5>
+          <p>At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database.
+          </p>
+        </div>
+      </div>
 
 
+      <div class="col-lg-3 col-md-5">
+        <div class="card">
+          <figure><img src="images/web-designing-icon.png" /></figure>
+          <h5>Web Designing</h5>
+          <p>At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database.
+          </p>
+        </div>
+      </div>
+
+      
+
+      <div class="col-lg-3 col-md-5">
+        
     <div class="card">
       <figure><img src="images/mobile-application-icon.png" /></figure>
       <h5> Mobile Applications </h5>
@@ -436,28 +431,52 @@
     </div>
 
 
+      </div>
+    </div>
+
+<br><br>
+
+    <div class="row d-flex justify-content-evenly">
+      <div class="col-lg-3 col-md-5">
+        <div class="card">
+          <figure><img src="images/cloud-devops-icon.png" /></figure>
+          <h5>Clould & DevOps</h5>
+          <p>At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-5">
+        <div class="card">
+          <figure><img src="images/digital-marketing-icon.png" /></figure>
+          <h5>Digital Marketing</h5>
+          <p>At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-5">
+        <div class="card">
+          <figure><img src="images/graphic-designing-icon.png" /></figure>
+          <h5>Graphic designing</h5>
+          <p>At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="container">
-    <div class="card">
-      <figure><img src="images/cloud-devops-icon.png" /></figure>
-      <h5>Clould & DevOps</h5>
-      <p>At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database.
-      </p>
-    </div>
-    <div class="card">
-      <figure><img src="images/digital-marketing-icon.png" /></figure>
-      <h5>Digital Marketing</h5>
-      <p>At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database.
-      </p>
-    </div>
-    <div class="card">
-      <figure><img src="images/graphic-designing-icon.png" /></figure>
-      <h5>Graphic designing</h5>
-      <p>At vero eos et accusamus etiusto odio praesentium accusamus etiusto odio data center for managing database.
-      </p>
-    </div>
-  </div>
+   
+</div>
+
+  
+
+
+  
+
+  
   <!------------------------------------------------ Our services ends here------------------------------------------------->
 
 
@@ -1142,7 +1161,7 @@
 
     <!------------------------------------------ first part ---------------------------------------------->
     <div class="row d-flex justify-content-evenly " style="margin-top: 80px;">
-      <div class="col-lg-3">
+      <div class="col-lg-3 ">
         <!-- ----------------------------------------------------------------------------- -->
         <div class="border1">
           <figure><img src="images/react-icon.png" /></figure>
@@ -1161,7 +1180,7 @@
 
 
       <!-- ----------------------------------------------------------------------------- -->
-      <div class="col-lg-3 technology_gap">
+      <div class="col-lg-3  technology_gap">
         <div class="border1">
           <figure><img src="images/shopify-icon.png" /></figure>
         <h4> <b> Shopify</b> </h4>
@@ -1178,7 +1197,7 @@
 
 
       <!-- ----------------------------------------------------------------------------- -->
-      <div class="col-lg-3 technology_gap2">
+      <div class="col-lg-3  technology_gap2">
         <div class="border1">
           <figure><img src="images/nodejs-icon.png" /></figure>
            <h4> <b> NodeJs</b> </h4>
@@ -1202,7 +1221,7 @@
 
     <div class="row d-flex justify-content-evenly ">
       <!-- ----------------------------------------------------------------------------- -->
-      <div class="col-lg-3">
+      <div class="col-lg-3  ">
         <div class="border1">
           <figure><img src="images/wordpress-icon.png" /></figure>
             <h4> <b> WordPress</b> </h4>
@@ -1219,7 +1238,7 @@
 
 
       <!-- ----------------------------------------------------------------------------- -->
-      <div class="col-lg-3 technology_gap">
+      <div class="col-lg-3  technology_gap">
         <div class="border1">
           <figure><img src="images/Angular-icon.png" /></figure>
           <h4> <b> Dot Net</b> </h4>
@@ -1237,7 +1256,7 @@
 
 
       <!-- ----------------------------------------------------------------------------- -->
-      <div class="col-lg-3 technology_gap2">
+      <div class="col-lg-3  technology_gap2">
         <div class="border1">
           <figure><img src="images/dotnet-icon.png" /></figure>
            <h4> <b> Dot Net</b> </h4>
@@ -1266,7 +1285,7 @@
 
 
       <!-- ----------------------------------------------------------------------------- -->
-      <div class="col-lg-3">
+      <div class="col-lg-3 ">
         <div class="border1 ">
           <figure><img src="images/figma-icon.png" /></figure>
           <h4> <b> Figma</b> </h4>
@@ -1284,7 +1303,7 @@
 
 
       <!-- ----------------------------------------------------------------------------- -->
-      <div class="col-lg-3 technology_gap">
+      <div class="col-lg-3  technology_gap">
         <div class="border1">
           <figure><img src="images/photoshop-icon.png" /></figure>
            <h4> <b> Photoshop</b> </h4>
@@ -1303,7 +1322,7 @@
 
 
       <!-- ----------------------------------------------------------------------------- -->
-      <div class="col-lg-3 technology_gap2">
+      <div class="col-lg-3  technology_gap2">
         <div class="border1">
           <figure><img src="images/adobe-illustrator.png" /></figure>
           <h4> <b> Adobe illustrator</b> </h4>

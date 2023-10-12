@@ -148,8 +148,8 @@ h6{
 
 
 .card_container {
-    display: flex;
-    justify-content: space-between;   
+    /* display: flex;
+    justify-content: space-between;    */
    
 }
 .card_main-1{
@@ -161,11 +161,12 @@ h6{
     margin-top: 100px;
 }
 .card {
-    padding:41px 30px 40px 31px;
-    width:364px;
-    height:314px;
+   
     border: 1px solid #C9C9C9;
     border-radius:15px;
+    padding: 20px;
+
+    margin-left: ;
 }
 .card  P{
     color:#333;
@@ -503,7 +504,7 @@ textarea{
 }
 
 .navbar-toggler{
-    background-color: white !important;
+    /* background-color: white !important; */
     outline: none !important;
     
 }
@@ -976,5 +977,15 @@ input[type=text], select, textarea {
     position: relative;
     top: 63px;
    }
+
+}
+
+
+@media  (max-width:770px){
+
+.hide_icons{
+    display: none;
+}
+
 
 }
