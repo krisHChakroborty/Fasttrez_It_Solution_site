@@ -12,6 +12,10 @@ html{
     font-size: 20px;
 }
 
+.bg_primary{
+    background-color: #062692;
+}
+
 body{
     margin:0px;
     padding:0px;
