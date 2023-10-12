@@ -8,7 +8,9 @@
 
     /* border: 1px solid red; */
 }
-
+html{
+    font-size: 20px;
+}
 
 body{
     margin:0px;
@@ -400,9 +402,17 @@ textarea{
 /* Carousal-part(Slider) */
 
 .slider_text{
-    font-size: 56px;
+    font-size: 260%;
     font-weight: 600;
 }
+
+
+
+.text_width{
+    width: 300px;
+}
+
+
 
 .first_block{
     margin-bottom: 100px;
@@ -423,7 +433,7 @@ textarea{
   
 }
 .slider_text_p{
-    font-size: 20px;
+    font-size: 94%;
     color: white;
 }
 .arrow_bg{
