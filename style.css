@@ -496,7 +496,7 @@ textarea{
 
 .img_position{
     position: relative;
-    bottom: 25px;
+    bottom: 42px;
 }
 
 
@@ -551,6 +551,7 @@ textarea{
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
+  
 }
 
 .slider_img2{
@@ -1035,3 +1036,43 @@ input[type=text], select, textarea {
     font-size: 14px;
 }
 }
+
+
+
+
+
+
+.owl-dot span{
+    background-color: #cdcccc !important;
+    border: 1px solid rgb(178, 178, 178);
+}
+
+.owl-dot.active span{
+    background-color: #0d40b7 !important;
+}
+
+ .owl-next , 
+.owl-prev{
+background-color: #3c24efd6 !important;
+font-size: 30px !important;
+position: absolute;
+width:44px;
+color: white !important;
+top: 40%;
+
+}
+
+.owl-next{
+right: -25px;
+border-radius: 100% !important;
+}
+.owl-prev{
+  left: -25px;
+  border-radius: 100% !important;  
+}
+
+/* .owl-nav{
+    position: absolute;
+    top: 0;
+    right: -50px;
+} */
