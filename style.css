@@ -532,7 +532,26 @@ textarea{
 
 
 
+.slider_img1{
+    background: rgba(0,0,0,0.7) url("images/header1.png");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.slider_img2{
+    background: rgba(0,0,0,0.7) url("images/header2.png");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider_img3{
+    background: rgba(0,0,0,0.7) url("images/header3.png");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
@@ -542,23 +561,6 @@ textarea{
 
 
 /* ===================================carousal images==================================== */
-.img1{
-    background-image: url("images/hero-img.jpg");
-  
-}
-
-.img2{
-    /* background-image: url("images/header1.png"); */
-    background: rgba(0,0,0,0.7) url("images/header1.png");
-    background-blend-mode: darken;
-}
-
-.img3{
-   
-    background: rgba(0,0,0,0.6) url("images/header2.png");
-    background-blend-mode: darken;
-
-}
 
 
 .size
