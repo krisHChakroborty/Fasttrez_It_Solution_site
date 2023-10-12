@@ -701,6 +701,26 @@ input[type=text], select, textarea {
 
 
 
+.a{
+    position: relative;
+
+}
+.a:after{
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 4px;
+    transition: 0.3s;
+
+}
+.a:hover:after{
+    width: 100%;
+}
+
+
 
 
 
