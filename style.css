@@ -8,9 +8,9 @@
 
     /* border: 1px solid red; */
 }
-html{
+/* html{
     font-size: 20px;
-}
+} */
 
 .bg_primary{
     background-color: #062692;
@@ -486,7 +486,7 @@ textarea{
 
 .border{
     border: 1px solid grey;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .img-fluid{
@@ -685,15 +685,6 @@ input[type=text], select, textarea {
 
 
 
-
-
-
-
-
-
-
-
-
 .carousel-indicators{
     text-align: center;
     width: 100%;
@@ -706,6 +697,24 @@ input[type=text], select, textarea {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav bar bottom line in hover or click */
 .a{
     position: relative;
 
@@ -725,7 +734,7 @@ input[type=text], select, textarea {
     width: 100%;
 }
 
-
+/* nav bar bottom line in hover or click */
 
 
 
@@ -1055,19 +1064,19 @@ input[type=text], select, textarea {
 .owl-prev{
 background-color: #3c24efd6 !important;
 font-size: 30px !important;
-position: absolute;
+/* position: absolute; */
 width:44px;
 color: white !important;
-top: 40%;
+/* top: 40%; */
 
 }
 
 .owl-next{
-right: -25px;
+/* right: -25px; */
 border-radius: 100% !important;
 }
 .owl-prev{
-  left: -25px;
+  /* left: -25px; */
   border-radius: 100% !important;  
 }
 
@@ -1076,3 +1085,19 @@ border-radius: 100% !important;
     top: 0;
     right: -50px;
 } */
+
+
+
+
+
+@media (min-width:805px ){
+.card{
+    margin-top: 90px;
+}
+}
+
+@media (max-width:986px ){
+    .card{
+        margin-top: 90px;
+    }
+    }
