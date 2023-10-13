@@ -1106,3 +1106,31 @@ border-radius: 100% !important;
         margin-top: 90px;
     }
     }
+
+
+.btn{
+    border-radius: 50%;
+}
+
+
+
+
+
+
+    /* .navbar-collapse{
+        background-color: #131314;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+    } */
+
+    /* .navbar-toggler,
+    .navbar-brand {
+      z-index: 1;
+    } */
