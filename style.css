@@ -210,6 +210,7 @@ h6{
     background-repeat: no-repeat;
     margin-bottom: 100px;
     background-position: center top;
+    background-size: cover;
   
 
 }
@@ -336,6 +337,7 @@ textarea{
     background-repeat: no-repeat;
     margin-top:100px;
     background-position: center center;
+    background-size: cover;
 }
 .paragraph{
     padding-bottom: 77px;
@@ -464,10 +466,11 @@ textarea{
 
 .bg_img{
     background-image: url("images/bg-techno.jpg");
-    width: 100%;
+    width: 100vw;
     /* height: 800px; */
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: cover;
    
 
 }
@@ -551,6 +554,7 @@ textarea{
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
+   
   
 }
 
@@ -893,6 +897,7 @@ input[type=text], select, textarea {
         background-repeat: no-repeat;
         margin-bottom: 100px;
         height: 2000px;
+        background-size: cover;
     }
 }
 
@@ -1027,14 +1032,14 @@ input[type=text], select, textarea {
 }
 
 
-@media  (max-width:770px){
+/* @media  (max-width:770px){
 
 .hide_icons{
     display: none;
-}
+} */
 
 
-}
+
 
 @media  (max-width:390px){
 .slider_text{
