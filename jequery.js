@@ -7,9 +7,9 @@ $(document).ready(function() {
     $(".navbar-toggler").click(function() {
 
 
-        $(".social2").toggle( function(){
+        $(".navbar_width").css( "height","max-content")
            
-        }); // This will hide the navbar with the id "navbar"
+        // This will hide the navbar with the id "navbar"
 
 
     });
@@ -18,16 +18,7 @@ $(document).ready(function() {
 
 
 
-    
-    $(".navbar-toggler").click(function(){
-
-
-        $(".data1").toggle();
-           
-       
-
-
-    });
+   
 
 
 
