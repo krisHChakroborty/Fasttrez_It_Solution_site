@@ -742,7 +742,9 @@ input[type=text], select, textarea {
 
 
 
-
+.footer_icons{
+    width: 20px;
+}
 
 
 
